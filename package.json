@@ -1,0 +1,30 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyabc789/webpack-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnyabc789/webpack-test/issues"
+  },
+  "homepage": "https://github.com/sunnyabc789/webpack-test#readme"
+}
