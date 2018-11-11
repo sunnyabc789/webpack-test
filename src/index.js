@@ -1,6 +1,5 @@
 import _ from 'lodash'
 import './style.css'
-import test from './images/test.png';
 
 function component() {
   var element = document.createElement('div')
@@ -10,10 +9,6 @@ function component() {
   element.classList.add('hello')
 
   // 将图像添加到我们现有的 div。
-  var myIcon = new Image();
-  myIcon.src = test;
-
-  element.appendChild(myIcon);
 
 
   return element
