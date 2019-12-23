@@ -27,6 +27,7 @@ test/e2e/reports
 /package-lock.json
 /analytics-pack
 /vscode-processes
+/dist/
 
 # Runtime data
 #pids
