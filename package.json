@@ -26,7 +26,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "eslint": "eslint --init"
+    "eslint": "eslint --init",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
